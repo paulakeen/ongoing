@@ -10,17 +10,21 @@
 
 * *Focus and time-to-market*: the reuse of open standard domain-agnostic semantic artefacts, e.g. ontological and linguistic resources, allows policy, business and technical implementers to focus on the domain problems to be solved. This also reduces the cost of maintenance and evolution and boosts the time-to-market;
 
-* *Stability and sustainabililty*: The drafting of ‘the catalogue’ of reusable vocabularies should be founded on sound governance principles. One of such ‘sound’ governance principles is that the vocabularies to reuse need to be developed and maintained by a stable SSO, SDO  or Community ensuring the open access to their governance processes and developments. Also, these organisations have special interest in  1) releasing stable developments, and 2) ensuring backwards compatibility. This benefits directly the business and digital continuity, which are critical for the the long-term sustainability of the Public Services and the justification of the investment in their development and maintenance.
+* *Stability and sustainabililty*: 'Catalogues’ of reusable vocabularies are (to be) founded on sound governance principles. One of such ‘sound’ governance principles is that the vocabularies to reuse need to be developed and maintained by a stable SSO, SDO  or Community ensuring the open access to their governance processes and developments. Also, these organisations have special interest in  1) releasing stable developments (i.e. provenly usable), and 2) ensuring backwards compatibility. This benefits directly the business and digital continuity, which are critical for the the long-term sustainability of the Public Services and the justification of the investment in their development and maintenance.
 
 ### Cons 
 
-* *Etiquette Compatibility*: A frequent situation is that SDO and Communities developing vocabularies couple their conceptual models to specific design and implementation paradigms. Thus, many vocabularies that are of the interest of SEMIC are only available as RDF models (some of them are not even represented graphically). Some SDOs are moving towards the production of 'syntax-binding-agnostic' models that would decouple the models and ontologies from 1) the syntax used to express the core model, 2) the expression of additional richer semantics (to add on-top-of the core model), and 3) core reusable rules and restrictions applicable to the core model and the added-on semantics. SEMIC is promoting this methodology for the development and maintenance of vocabularies and ontologies.    
+* *Etiquette Compatibility*.footnote:[The term 'ettiquette' is used in some scientific literature about interoperability. It has been applied related to the ICT communications fields to refer to 'protocols of protocols', to 'content-negotiation' and to 'syntax-bridging'. Cfr. XXXXX-REFERENCE]: A frequent situation is that SDO and Communities developing vocabularies couple their conceptual models to specific design and implementation paradigms. Thus, many vocabularies that are of the interest of SEMIC are only available as RDF models (some of them are not even represented graphically). Some SDOs (e.g. OASIS UBL) are moving towards the production of 'syntax-binding-agnostic' models that would decouple the models and ontologies from 1) the syntax used to express the core model, 2) the expression of additional richer semantics (to add on-top-of the core model), and 3) core reusable rules and restrictions applicable to the core model and the added-on semantics. SEMIC is promoting this methodology for the development and maintenance of vocabularies and ontologies. However, for those vocabularies and resources (e.g. validation methods and artefacts) that are only available under one design and implementation approach and technology, 'mappings' and 'adjustments' between the original specification and the desired design/implementation need to be done. One example of this has been the need to 1) map the DCAT RDF T-Box (and the vocabularies reused by DCAT) to XML Schemas, and 2) to adjust certain datatypes used in RDF to other preferred in XML (e.g. rdf:resource to either xsd:anyURI or xsd:anyType). These actions should to be reported back to the SDO maintaining the specification, as well as the need of decoupling the model from the technological aspects (and producing alternative syntax-bindings). In the meantime, the situation described imposes:
 
+** The need of constantly watch the evolution of the SDO's works;
+** The need of maintaining the inner developments that depend on the SDO's works evolution;
+** The need of re-adapting tools and solutions;
+** The need of well communicating and disseminating the evolution of the inner works originated by this evolution imposed from the outside;
 
-
-
-* *Adaptibility*:
-    ** Pace
+* *Adaptibility*: One of the problems of reusing externally governed resources is that  requirements that should be covered in one resource, e.g. one vocabulary, are not covered sufficiently or at all. When this happens, the alternatives are not always viable:
+    ** Pace: 
+    ** Customisation (APs):
+    ** Extensibility:
 
 * *Accessibility*:
     *** to artefacts
