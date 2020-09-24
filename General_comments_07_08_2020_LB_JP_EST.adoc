@@ -27,7 +27,11 @@ Policy makers, CIO, business owners and project leaders. Rationale for these tar
     ** The role of the semantic interoperability;
     ** The importance of sharing and reuse.
 
-* Principles and recommendations for the identification and selection of reusable resources (cfr. the pros-and-cons comment, below).
+* Introduce the need of a EU Catalogue of Reusable Semantic Solutions: 
+
+    ** Explain and justify the need;
+    ** Set the principles and recommendations for the identification and selection of reusable resources (cfr. the pros-and-cons comment, below);
+    ** Illustrate with examples.
 
 * Introduce the Style Guides as an enabler of the semantic interoperability:
 
@@ -81,6 +85,8 @@ General considerations:
     footnote:[There may be many reasons for the unresponsiveness of an SDO (or of a particular SDO TC), e.g. the SDO is not affected by the legislation, the SDO's roadmap is misaligned with the incoming requirement, the SDO policy does not allow for the inclusion of requirements that are not sufficiently global (i.e. international or of insufficient interest to a critical mass), etc. One example of highly responsive specification developers are OASIS business-oriented TC, e.g. UBL, LegalDocML, other.]. The optimal option would be the first one, that the vocabuary is adaptable. One indicator that the vocabulary is adaptable is that it can be customised and extended. 
     ** _Customisation and extensibility_: vocabularies are not trully reusable if they set very strict conditions or constraints. As a matter of fact, constraints and particular business entities cannot be fully identified until the vocabulary is 'applied' to a context and, more specifically, to a business domain. Hence, a relevant factor (i.e., a _sematic interoperability enabler_, cfr. EIRA Key Interoperability Enablers) when identifying and selecting reusable candidate vocabularies is whether they are flexible enough so they can be, later on, be 'profiled'. The ISA2 Core Standard and Specification Vocabulary (https://joinup.ec.europa.eu/solution/core-standards-and-specifications-vocabulary-cssv[CSSV]) and the W3C https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary] use the following definition of 'Application Profile': A [data/application] specification that constrains, extends, combines, or provides guidance or explanation about the usage of other [data/application] specifications".  
 
-* *Accessibility*: a relevant criterion for the selection of reusable resources is how unrestricted is the access to the resources, related documentation, reference implementations and to the participation in their evolution. These are also key factors that moderate the sharing and reuse of the semantic interoperability solutions, and therefore are Key Interoperability Enablers that contribute to the saliency of the interoperability in the European Digital Public Service Value Chain (EDPSVC).
+* *Accessibility*: a relevant criterion for the selection of reusable resources is how unrestricted is the access to the resources, related documentation, reference implementations and to the participation in their evolution. These are also key factors that moderate the sharing and reuse of the semantic interoperability solutions, and therefore are Key Interoperability Enablers that contribute to the saliency of the interoperability in the European Digital Public Service Value Chain (EDPSVC). They should be taken into account when drafting the principles and recommendations for the cataloguing of reusable semantic solutions.
+
+
 
 
