@@ -1,0 +1,28 @@
+## Pros
+
+* *Semantic interoperability*: semantic interoperability is enabled. This is well explained in the latest version of EIRA, see the Key Interoperability Enablers View: Ontologies are Key IOP Enablers in the semantic layer. For the Enablement to be activated the ABB (ontology) is to be ‘Shared and Reused’ (Sharing and Reuse are the two critical events resulting into components that can be considered Key IOP Enablers -> The Structural Interoperability Saliency is defined in terms of ‘Sharing and Reuse’);
+
+* *Modularity*: modularity is promoted in front of monolithic solutions.  Modularity is the architectural approach making possible the Structural Interoperability. The more modular the more reusable;
+
+* *Standardisation*: openly sharing modular components promotes the standardisation of semantic artefacts. The (re)use of open standards is one important recommendation in the EIF and a critical factor for the enablement of interoperability. One major benefit of open standards is the proliferation of compatible solutions that are Vendor-independent;
+
+* *Data are the assets*: the reuse of standard vocabularies and ontologies provide the opportunity to consume existing and up-to-the-date datasets. These data are invaluable assets for the implementation of the Public Service Policy and the Digital Public Service Delivery.
+
+* *Focus and time-to-market*: the reuse of open standard domain-agnostic semantic artefacts, e.g. ontological and linguistic resources, allows policy, business and technical implementers to focus on the domain problems to be solved. This also reduces the cost of maintenance and evolution and boosts the time-to-market;
+
+* *Stability and sustainabililty*: The drafting of ‘the catalogue’ of reusable vocabularies should be founded on sound governance principles. One of such ‘sound’ governance principles is that the vocabularies to reuse need to be developed and maintained by a stable SSO, SDO  or Community ensuring the open access to their governance processes and developments. Also, these organisations have special interest in  1) releasing stable developments, and 2) ensuring backwards compatibility. This benefits directly the business and digital continuity, which are critical for the the long-term sustainability of the Public Services and the justification of the investment in their development and maintenance.
+
+### Cons 
+
+* *Etiquette Compatibility*: A frequent situation is that SDO and Communities developing vocabularies couple their conceptual models to specific design and implementation paradigms. Thus, many vocabularies that are of the interest of SEMIC are only available as RDF models (some of them are not even represented graphically). Some SDOs are moving towards the production of 'syntax-binding-agnostic' models that would decouple the models and ontologies from 1) the syntax used to express the core model, 2) the expression of additional richer semantics (to add on-top-of the core model), and 3) core reusable rules and restrictions applicable to the core model and the added-on semantics. SEMIC is promoting this methodology for the development and maintenance of vocabularies and ontologies.    
+
+
+
+
+* *Adaptibility*:
+    ** Pace
+
+* *Accessibility*:
+    *** to artefacts
+    *** to documentation
+    *** to governance to influence on the evolution
