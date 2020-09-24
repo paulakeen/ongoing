@@ -1,3 +1,58 @@
+== Handbook and Style Guides
+
+Different 'general comments' have led to the conclusion that  distinguishing clearly between the goals, targeted audience and content of the '*_eGovernment Core Vocabularies Handbook_*' and the '*_eGovernment Core Vocabularies Style Guides_*' is urgently needed.
+
+Subsections below reflect our opinion.
+
+=== Handbook
+
+==== Audience
+
+Policy makers, CIO, business owners and project leaders. Rationale for these targets is provided in farther sections below.
+
+==== Goals and content (TOP-DOWN approach)
+
+* Provide General Context:
+
+    ** Alignment with the EU general principles and policy;
+    ** Alignment with the European Commission principles and strategy;
+    ** Alignement with the COM Interoperability strategy and principles, more concretely:
+        *** References to the legal framework related to interoperability, standardisation and reusability (cfr. EIF Decision, Regulation 2015/2012, eur-lex texts on reusability, etc.);
+    ** Summary of ISA2 goals, actions and initiatives;
+    ** Summary of the SEMIC goals, works and road-map.
+
+* Provide Public Administation Interoperability-specific Context
+
+    ** The saliency of interoperability in the EU Digital Public Service Value Chain;
+    ** The role of the semantic interoperability;
+    ** The importance of sharing and reuse.
+
+* Principles and recommendations for the identification and selection of reusable resources (cfr. the pros-and-cons comment, below).
+
+* Introduce the Style Guides as an enabler of the semantic interoperability:
+
+    ** What are the Style Guides;
+    ** How the Style Guides enable semantic interoperability;
+    ** Why they should be systematically applied, by whom, under what circumstances (what for, etc.)
+
+
+=== Style Guides
+
+
+==== Audience
+
+Project leaders and technical implementers. Rationale for these targets is provided in farther sections below.
+
+==== Goals and content
+
+The current content of the eGovernment Core Vocabularies Style Guides.
+
+## Pros and Cons about the reuse of vocabularies
+
+General considerations:
+
+* Sharing and reuse do not affect only vocabularies, but any potentially reusable 'semantic interoperability solution' (i.e. ontological and non-ontological resources, including core vocabularies, controlled vocabularies, validations artefacts, etc.). This argument should be clearly stated and illustrated both in the handbook and the guides. 
+
 ## Pros
 
 * *Semantic interoperability*: semantic interoperability is enabled. This is well explained in the latest version of EIRA, see the Key Interoperability Enablers View: Ontologies are Key IOP Enablers in the semantic layer. For the Enablement to be activated the ABB (ontology) is to be ‘Shared and Reused’ (Sharing and Reuse are the two critical events resulting into components that can be considered Key IOP Enablers -> The Structural Interoperability Saliency is defined in terms of ‘Sharing and Reuse’);
@@ -14,19 +69,18 @@
 
 ### Cons 
 
-* *Etiquette Compatibility*.footnote:[The term 'ettiquette' is used in some scientific literature about interoperability. It has been applied related to the ICT communications fields to refer to 'protocols of protocols', to 'content-negotiation' and to 'syntax-bridging'. Cfr. XXXXX-REFERENCE]: A frequent situation is that SDO and Communities developing vocabularies couple their conceptual models to specific design and implementation paradigms. Thus, many vocabularies that are of the interest of SEMIC are only available as RDF models (some of them are not even represented graphically). Some SDOs (e.g. OASIS UBL) are moving towards the production of 'syntax-binding-agnostic' models that would decouple the models and ontologies from 1) the syntax used to express the core model, 2) the expression of additional richer semantics (to add on-top-of the core model), and 3) core reusable rules and restrictions applicable to the core model and the added-on semantics. SEMIC is promoting this methodology for the development and maintenance of vocabularies and ontologies. However, for those vocabularies and resources (e.g. validation methods and artefacts) that are only available under one design and implementation approach and technology, 'mappings' and 'adjustments' between the original specification and the desired design/implementation need to be done. One example of this has been the need to 1) map the DCAT RDF T-Box (and the vocabularies reused by DCAT) to XML Schemas, and 2) to adjust certain datatypes used in RDF to other preferred in XML (e.g. rdf:resource to either xsd:anyURI or xsd:anyType). These actions should to be reported back to the SDO maintaining the specification, as well as the need of decoupling the model from the technological aspects (and producing alternative syntax-bindings). In the meantime, the situation described imposes:
+* *Etiquette Compatibility* footnote:[The term 'ettiquette' is used in some scientific literature about interoperability. It has been applied related to the ICT communications fields to refer to 'protocols of protocols', to 'content-negotiation' and to 'syntax-bridging'. Cfr. XXXXX-REFERENCE]: A frequent situation is that SDO and Communities developing vocabularies couple their conceptual models to specific design and implementation paradigms. Thus, many vocabularies that are of the interest of SEMIC are only available as RDF models (some of them are not even represented graphically). Some SDO Technical Committees and vocabulary publishers (e.g. link:https://docs.oasis-open.org/ubl/UBL-2.3.html[OASIS UBL], the Publications Office of the European Union footnote:[link:https://docs.oasis-open.org/ubl/UBL-2.3.html[UBL] produces W3C XSD and JSON Schemas. OP's https://op.europa.eu/en/web/eu-vocabularies[EU Vocabularies] publishes all the authority tables in different formats, XML, HTML, SKOS, Genericode.]) are moving towards the production of 'syntax-binding-agnostic' models that would decouple the models and ontologies from 1) the syntax used to express the core model, 2) the expression of additional richer semantics (to add on-top-of the core model), and 3) core reusable rules and restrictions applicable to the core model and the added-on semantics. SEMIC is promoting this methodology for the development and maintenance of vocabularies and ontologies. However, for those vocabularies and resources (e.g. validation methods and artefacts) that are only available under one design and implementation approach and technology, 'mappings' and 'adjustments' between the original specification and the desired design/implementation need to be done. One example of this has been the need to 1) map the DCAT RDF T-Box (and the vocabularies reused by DCAT) to XML Schemas, and 2) to adjust certain datatypes used in RDF to other preferred in XML (e.g. rdf:resource to either xsd:anyURI or xsd:anyType). These actions should to be reported back to the SDO maintaining the specification, as well as the need of decoupling the model from the technological aspects (and producing alternative syntax-bindings). In the meantime, the situation described imposes:
 
 ** The need of constantly watch the evolution of the SDO's works;
 ** The need of maintaining the inner developments that depend on the SDO's works evolution;
 ** The need of re-adapting tools and solutions;
 ** The need of well communicating and disseminating the evolution of the inner works originated by this evolution imposed from the outside;
 
-* *Adaptibility*: One of the problems of reusing externally governed resources is that  requirements that should be covered in one resource, e.g. one vocabulary, are not covered sufficiently or at all. When this happens, the alternatives are not always viable:
-    ** Pace: 
-    ** Customisation (APs):
-    ** Extensibility:
+* *Adaptibility*: One of the problems of reusing externally governed resources is that requirements that should fall within the compass of one resource, e.g. one vocabulary, are not covered sufficiently or at all. When this happens, the alternatives are not always viable and need to be dealt with internally. At least three situations can be identified related to this problem: pace, customisation and extensibility. The identification of these situations is a relevant task when building the catalogue of reusable ontological and linguistic resources.    
+    ** _Pace_: new legal and business requirements need to be introduced timely in the vocabularies. If the SDO responsible for the maintenance of the vocabulary is not reactive and adapts the pace of its developments to the [re]user needs, the user will need to either look for 1) adapting the vocabulary to its needs, 2) to come up with its own _ad hoc_ solution, or 3) look for combinations of alternative vocabularies that partially meet the user requirements
+    footnote:[There may be many reasons for the unresponsiveness of an SDO (or of a particular SDO TC), e.g. the SDO is not affected by the legislation, the SDO's roadmap is misaligned with the incoming requirement, the SDO policy does not allow for the inclusion of requirements that are not sufficiently global (i.e. international or of insufficient interest to a critical mass), etc. One example of highly responsive specification developers are OASIS business-oriented TC, e.g. UBL, LegalDocML, other.]. The optimal option would be the first one, that the vocabuary is adaptable. One indicator that the vocabulary is adaptable is that it can be customised and extended. 
+    ** _Customisation and extensibility_: vocabularies are not trully reusable if they set very strict conditions or constraints. As a matter of fact, constraints and particular business entities cannot be fully identified until the vocabulary is 'applied' to a context and, more specifically, to a business domain. Hence, a relevant factor (i.e., a _sematic interoperability enabler_, cfr. EIRA Key Interoperability Enablers) when identifying and selecting reusable candidate vocabularies is whether they are flexible enough so they can be, later on, be 'profiled'. The ISA2 Core Standard and Specification Vocabulary (https://joinup.ec.europa.eu/solution/core-standards-and-specifications-vocabulary-cssv[CSSV]) and the W3C https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary] use the following definition of 'Application Profile': A [data/application] specification that constrains, extends, combines, or provides guidance or explanation about the usage of other [data/application] specifications".  
 
-* *Accessibility*:
-    *** to artefacts
-    *** to documentation
-    *** to governance to influence on the evolution
+* *Accessibility*: a relevant criterion for the selection of reusable resources is how unrestricted is the access to the resources, related documentation, reference implementations and to the participation in their evolution. These are also key factors that moderate the sharing and reuse of the semantic interoperability solutions, and therefore are Key Interoperability Enablers that contribute to the saliency of the interoperability in the European Digital Public Service Value Chain (EDPSVC).
+
+
