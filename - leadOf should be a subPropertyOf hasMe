@@ -1,0 +1,7 @@
+- leadOf should be a subPropertyOf hasMember/isMemberOf
+- check with Eugene why this error is being cast
+
+
+
+
+
