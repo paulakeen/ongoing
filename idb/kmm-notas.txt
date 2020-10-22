@@ -1,0 +1,103 @@
+IDBLab Knowledge Management Model (Modelo de Gestión del Conocimiento 'IDBLab-KMM')
+
+- No queremos gestionar taxonomías, proponemos la gestión del conocimiento integral (desarrollo progresivo de un KMM Framework)
+
+- No hablaríamos de roles sino de un 'Modelo De Gobernanza' para la KMM. En este modelo, no hablamos de roles sino de una 'matriz RACI' o incluso 'RACLI'
+
+- Podríamos proponer un Framework de Gestión basado en las 4 capas LOST (LOST, Legal-Normative, Organizational, Semantic and Technical) más una 
+tranversal de Gobernanza con 3 ejes fundamentales: 1) General policy and decision-making (body and processes), 2) Sustainability policy (maintenance, 
+evolution, seamless integration and deployment, release and dissemination. Tenemos un modelo base ya pre-fabricado. Este deliverable incluye muchas cosas, 
+entre ellas la metodología de modelado, diseño e implementación - punto único de mantenimiento, las sintaxis de generación, la política de URIs, principios FAIR, etc.; ciclo de vida 
+de mantenimiento, incluida la política de versionado, revisión, apelación y publicación, etc.);  3) Accountability (transparency policy, instruments and reports, pro-active notification and 
+inter-departamental communication):
+
+1 - Ontología(s) Core
+2 - Reference Data (e.g. Taxonomies)
+3 - Application Profile
+
+- Master Data Management Policy, including Reference Data Policy (e.g. application-specific, domain-specific, domain-agnostic...
+
+Identificados de la literatura interna hasta ahora:
+
+    * Fuentes de objetos de-referenciables (Master Data):
+        ** Autores: 
+            *** Internos:Cataloging & Metadata Librarian, Information Service Officers​, Clientes de Portafolios, Office of Strategic Planning and Development 
+            Effectiveness - SPD
+            *** Externos: Wikipedia, DBPedia, Catálogo BNE, Penn, Harvard, Google Scholar, LCA (Congress) -> Rehuiríamos Social Networks, al menos al principios
+    * Reference Data:
+        ** 'JAIL vocabulary' (Capa Normativa)
+        ** Países y Regions: ISO-3166-1, Geonames, AEA, DBPedia, otros.
+    * Procesos:
+        ** AM-331 Procedimiento para la publicación de productos de conocimiento (Capa Normativa)
+    * Fuentes de Categorías y de conceptos para la inducción/reducción (ConceptSchemes), Tags, Keywords, Collocations, Acrónimos, otros:
+        ** ** OR-141 Organizational Acronyms (Capa Normativa)    
+
+- El 'Modelo de Conocimiento' de Findability parece 'pequeño' y poco ambicioso en relación de lo que podemos proponer a medio-largo plazo. Esto está 
+relacionado con: 1) el número de fuentes que ellos utilizan parece ser menor que el nuestro; 2) el hecho de que solo hayan desarrollado una taxonomía (o eso creo, a la 
+espera de estudiar el resto de materiales proporcionados).
+
+- Comentarios sobre la Taxonomía de Findability:
+
+    - No le veo el sentido a tener listas de identificadores de individuos y de 'cosas' (e.g. autorías y departamentos) en la taxonomía. 
+    En nuestro modelo de Gestión estos individuos deberían gestionarse desde una Base de Conocimiento (KB) que bien se actualiza desde las fuentes de datos bien linka directamente con
+    el recurso. Nota técnica, en estos casos, si la API es ReSTful lo aconsejable es utilizar PURIs con Redireccionamiento 303. El tema de las URIs debería
+    ir al modelo de Gestión del Conocimiento también (cfr. doc. SEMIC style guides for Core Vocabularies and Application Profiles).
+
+    - Me llama la atención que los elementos de la taxonomía estén tan 'pobres' (no hay definiciones, no hay enlaces a recursos externos, no hay etiquetas 
+    alternativas u ocultas). Sin embargo, en el PPT, están mostrando una taxonomía que no se corresponde con la que nos han pasado (p.e. no he conseguido
+    encontrar el nodo 'Regional Integration')
+    
+    - La diapo 7 es muy interesante porque allí se muestra que el banco, IDB, tiene 'Áreas Prioritarias' (o 'Programas'), p.e. 1) Public Health and
+     Response Capacity, 2) Safety Nets, 3) Productivity and Employment, 4) Fiscal Policies.
+
+     PREGUNTA: Tiene el IDBLab 'Areas o Programas Prioritarios propios, o serían los mismos que los del Banco'? Del video https://www.youtube.com/IDBlab
+     saco estas: Innovation (e.g. Innovation Ecosystems), Development, Finance and Know-how. Otros Scheme Concepts relacionados identificados en el video: 
+     Regions: Latin America and the Caribean, Concepts: Project, Venture, Factors (Economic, Environmental, Social -as in Social Inclusion). Y un título 
+     para nuestro cliente: IDBLab stands for 'Innovation Laboratory of the IDB'. Además de una pequea definición de él encontrada en la página del 
+     'Grupo BID': "Centro para la experimentación de formas innovadoras para el impulso de un crecimiento más inclusivo" (lo que nos dicen bastante 
+     acerca de quienes son y a qué se dedican). Por cierto, la descripcion de qué es el Grupo IDB dice:
+     
+     "El Grupo BID es la principal fuente de financiamiento para el desarrollo de América Latina y el Caribe. El grupo ayuda a mejorar vidas al 
+     brindar soluciones financieras y conocimientos sobre el desarrollo a clientes tanto del sector público como del privado. El grupo está 
+     compuesto por el BID, que ha trabajado con gobiernos durante 60 años; BID Invest, que colabora con el sector privado; y BID Lab, que 
+     experimenta formas innovadoras de impulsar un crecimiento más inclusivo".
+
+     Empezamos a tener un poquito más claro "El Universo". Imaginemos ahora que preguntamos: Qué fuentes de información maneja cada Centro del Grupo BID?
+     p.e. La biblioteca imagino que está gestionada por el BID, la Financiación estaría gestionada por BID Invest (https://www.idbinvest.org/es), y la 
+     innovación por BID Lab. Quién es el owner de Convergencia? Cómo de transversal es? Que título y definición tenemos de BID Invest, y ... qué fuentes de información pone a nuestra 
+     disposición, pone alguna, sería de nuestro interés para el BID Lab, cómo?
+
+     De hecho, estas preguntas se enmarcan en el contexto de una tarea previa en el desarrollo de Ontologías que es la 'identificación, definición y 
+     traducción de los conceptos y términos' del 'Universo'.
+
+     - La regla para la traducción debería ser la misma que en Findability: el  skos:prefLabel debería estar en los idiomas utilizados en el banco 
+     (en, es, pt, fr), pero el idioma por defecto (para la identificación de los conceptos en taxonomías y ontologías) debería ser el inglés, of course.
+     
+     PROPUESTA: Empiezo a dibujar el Universo, pero necesitaremos que nos ayude el cliente a perfilarlo.
+
+     PROPUESTA DE VALOR A FUTUROS PROYECTOS:
+     
+    - Es interesante ver que tratan los acrónimos como etiquetas de conceptos añadidos a la taxonomía. En SEMBU estamos trabajando arduamente en un sistema
+    propio de extracción y desambiguación de acrónimos. Este 'motor de acrónimos' podría proponerse en un road-map de medio-término como fuente adicional 
+    de enriquecimiento semántico y mejora de la F de FAIR. Las diapos 8 y 9 de Findability no tendrían sentido:
+
+        1. Medium Enterprise, Medium-Enterprise es un bígram (bicollocation) que puede ser automáticamente extraído del corpus y asociado junto con todos 
+        sus posibles acrónimos y expansiones y encontrado sin necesidad de establecer criterios de tipo 'Terms Begins With'. 
+        2. El contexto debería ser suficiente para desambiguar que se está buscando PYME y los resutados deberían poderse rankear en base a co-occurrencia, 
+        frecuencia, k-neibourghood, otros.
+
+    - En la diapo 13 "Fuentes Internas" veo que tienen 'cursos'. Se me ocurre que quizá tengan alguno que nos fuera bien para entender el negocio del BID.
+
+       
+
+
+
+
+
+
+        
+
+
+
+
+
