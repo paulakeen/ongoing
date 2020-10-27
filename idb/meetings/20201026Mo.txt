@@ -1,0 +1,46 @@
+Progress meeting with the IDB Lab client
+
+Meeting starts at 16:05 CET Time
+The meeting is being recorded
+
+everis presents:
+* PPT
+* experts will ask questions about existing taxonomies and ontologies
+* detailed tasks about ontologies and architecture and software implementation of front-end and back-end
+* RACI table
+* Risk assessment
+
+16:22 la grabación empieza ahora por parte de Javier
+
+Acerca de las fuentes de datos:
+* everis: tres datasources identificados:
+
+  1. Ezshare
+  2. SalesForce
+  3. DataWarehouse
+  
+* IDB: La cartera de compañías de nuestros fondos manejados en Excel y otros formatos y que se debería cargar a ezshare
+
+
+Grupo de evaluación preguntas diferentes a las de Gnoma
+
+Maria Elena - se está poniendo mucho esfuerzo en entender las taxonomías de findability, pero siempre que estén en línea con la historias de usuario. Con qué grupo de usuarios directos del proyecto Gnoma se quisiera trabajar? ME considera útil trabjar con un grupo de usuarios del BIDLab que tienen un conocimiento íntimo de un topico o tema para que ellos puedan ayudarnos a desarrollar las taxonomías y ontologías de Gnoma, taxonomías que hoy por hoy no existen sino que están de forma tácita en nuestro día a día.
+
+Findability es muy del sector público. Pero el IDBLab no necesariamente se alinean siempre con el sector Público.
+
+
+Fondo Multilateral de Inversiones, antiguo nombre, se cambió hace 3 años para reflejar que IDBLab es parte del grupo y está al servicio del Grupo. Sin embargo, a día de hoy aún no está apoyando a todas las áreas del grupo, solo con ciertas partes del Grupo BID, pero están en ello.
+
+CIRCULOS TEMÁTICOS - se podría seleccionar una o dos personas de estos circulos. Cada uno de estos circulos manejan su cartera / sus proyectos con sus propias clasificaciones, sin reutilizar o compartir con otras.
+
+Es ahí donde existe un conocimiento cierto profundizado de los temas, y en algunos casos ya han empezado a elaborar una taxonomía. Sin embargo, Futuro del Trabajo y otros avanzados, habría que poner un inciso: Tampoco es por el hecho de que una persona o un grupo sean expertos en una área temática que tienen una mentalidad lógica sobre una ontología o expertise para organizar conceptos. Ahí es donde everis puede apoyar los circulos.
+
+Action Points:
+
+- IDBLab to identify a couple or three Thematic Circles (Green Circle, otros), el criteria básico es que ya hayan avanzado en la clasificación de conceptos.
+- everis to define roadmap de estudio de la operación
+
+
+IMPORTANTE: Reunión de estudio del ciclo de vida de un proyecto este jueves día 29 de Octubre. Estudiar la presentación de Julien, antes de ir a la reunión.
+
+
