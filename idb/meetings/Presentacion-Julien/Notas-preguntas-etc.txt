@@ -1,0 +1,60 @@
+
+- Información extraída del video de Julien: https://web.microsoftstream.com/video/8c5745d9-8d52-4b03-a61e-3e75d3a553d3
+- WEB PUBLICA DE IDB (UN PROYECTO CONCRETO): https://www.iadb.org/en/project/CO-M1082
+
+Taxonomías en Salesforce
+
+I. Tres Areas Temàticas y subáreas: 
+    -Entrepreneurship Ecosystem Development
+    - Knowledge Economy
+        ** Future of Work
+        ** Entrepreneurship Ecosystem Developers
+        ** Knowledge-intensive Startups
+    - Future of Work
+
+II. Strategic Alignment (Convergencia) (Ver captura de pantalla de Convergencia!) ETIQUETAS PROPIAS DE BIDLab y del BID
+
+    - Social Inclusion and equality
+    - Productivity and innovation
+    - etc. 
+
+III. Operation Details  (DEO, Development Effectiveness Overview: informe anual donde todas las categorías
+se pueden alinear transversalmente - líneas estratégicas del grupo) (VER CAPTURA DE PANTALLA!) IDBLab 
+tiene que respetar las clasificaciones transversales también!!!! Ruben sabe mucho de este tema.
+
+    - PROJECT SECTOR
+    - PROJECT SUBSECTOR
+
+III. Regiones
+
+
+- Modelado:
+
+Un Proyecto --> una o más Operaciones
+Proyecto tiene Tipo
+Cada Tipo de Proyecto  tiene --> su propio Life-cycle
+
+
+- Proceso de captura de información:
+
+1º Se crea la Operación en Convergencia
+2º En Salesforce se crea una Oportunidad escogiendo (pick-list) el ID (y nombre?) de Operación de Convergencia e 
+introduciendo el link al PITCH a mano, al igual que los metadatados definidos en Salesforce para la Oportunidad.
+ 
+
+- Documentos clave:
+
+TODOS LOS DOCUMENTOS ESTAN EN EL EZSHARE! (incluido el PITCH)
+
+1 - Source -> Eligibility: PITCH
+2 - Design -> Approval: Donor's Memo 
+
+
+
+ACTION POINTS:
+
+1. URGENT: REVISAR LOS MATERIALES EN IDBLab Temàticas
+2. PREGUNTAS: 
+    - entiendo que, en SalesForce, los metadatos de una oportunidad se introducen a mano, y en entre ellos el link al PITCH creado en Convergencia 
+    (como explica Julien en su presentación).
+
