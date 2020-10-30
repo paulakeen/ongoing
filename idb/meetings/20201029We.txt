@@ -1,0 +1,29 @@
+
+
+De dónde surgen las ideas para un proyecto BIDLab? Pueden vernir de multitud de fuentes, personas que se reunen y hablan de ello, llamadas telefónicas 
+de donde se sacan ideas, eventos varios, etc.
+
+Sin embargo, hace unos años atrás se empezó una iniciativa de adoptar un CRM dentro de todo el BID y el BIDLab fue uno de los elegidos para impulsar
+este esfuerzo. Este CRM está basado en SalesForce (con toda su nomenclatura, contactos, account, cuentas o instuticiones).
+
+Si alguien encuentra una persona con una idea interesante la puedes incorporar al CRM y, a partir de aquí generar una Oportunidad. El CRM no es algo
+que se haya adoptado masivamente dentro del BIDLab o del BID. Se va haciendo poquito a poco. 
+
+Encima de la oportunidad se superpone la taxonomía. 
+
+María Elena: Una de las razones por la que quisimos invertir en GNOME y en NLP. Como en un laboratorio lo que hacemos va cambiando constantemente. Cada cierto
+tiempo cambian las areas en las que se trabaja, la estrategia de la organización.
+
+Definición: "Una oportunidad es una idea de proyecto"
+
+Rubén: Juline, crear una oportunidad es un requerimiento o es una opción?
+Julien: es un requerimiento, los finalistas del challenge també pueden crear oportunidades. Sin embargo hay quien crea la oportunidad antes de enviar 
+el PITCH. Pero en realidad el gestor de oportunidades (José) no crea el la oportunidad hasta recibir el PITCH.
+
+En sales force se pueden ir creando Contactos y Cuentas (accounts, es decir clientes) y despues Oportunidad. 
+
+Comité de Donantes, el ejecutivo de aprobación antes de aceptar una oportunidad/proyecto
+
+VER DOC PREPARADO POR RUBÉN DURANTE LA REUNIÓN
+
+
