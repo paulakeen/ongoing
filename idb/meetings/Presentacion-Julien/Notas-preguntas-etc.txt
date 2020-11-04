@@ -1,0 +1,201 @@
+
+- Información extraída del video de Julien: https://web.microsoftstream.com/video/8c5745d9-8d52-4b03-a61e-3e75d3a553d3
+- WEB PUBLICA DE IDB (UN PROYECTO CONCRETO): https://www.iadb.org/en/project/CO-M1082
+
+Taxonomías en Salesforce
+
+I. Tres Areas Temàticas y subáreas: 
+    -Entrepreneurship Ecosystem Development
+    - Knowledge Economy
+        ** Future of Work
+        ** Entrepreneurship Ecosystem Developers
+        ** Knowledge-intensive Startups
+    - Future of Work
+
+II. Strategic Alignment (Convergencia) (Ver captura de pantalla de Convergencia!) ETIQUETAS PROPIAS DE BIDLab y del BID
+
+    - Social Inclusion and equality
+    - Productivity and innovation
+    - etc. 
+
+III. Operation Details and Operation Data (DEO, Development Effectiveness Overview: informe anual 
+donde todas las categorías se pueden alinear transversalmente - líneas estratégicas del grupo) (VER CAPTURA DE PANTALLA!) IDBLab 
+tiene que respetar las clasificaciones transversales también!!!! Ruben sabe mucho de este tema.
+
+    - PROJECT SECTOR
+    - PROJECT SUBSECTOR
+
+III. Regiones
+
+
+- Modelado:
+___________
+
+Un Proyecto --> una o más Operaciones
+Proyecto tiene Tipo
+Cada Tipo de Proyecto  tiene --> su propio Life-cycle
+Portofolio = Contiene todos los proyectos aprobados. Los documentos del Portfolio, para un Tipo de Proyecto? o para un Topic determinado?, pueden
+considerado un Corpus.
+Una Operación --> una o más SubOperaciones
+
+___________
+
+PROCESO GENERAL DE GENERACIÓN DE INFORMACIÓN:
+
+- Se crea la Operación en Convergencia
+- En Salesforce se crea una Oportunidad escogiendo (pick-list) el ID (y nombre?) de Operación de Convergencia e 
+introduciendo el link al PITCH a mano, al igual que los metadatados definidos en Salesforce para la Oportunidad.
+- Álvaro y Rubén saben mucho sobre cómo Convergencia inyecta información en Salesforce (push desde Convergencia hacia el Project Manager de Salesforce, 
+pero este push ya es de un proyecto, no de una oportunidad) 
+- En Salesforce hay un menú "IDB Lab Project Manager" desde el cual se pueden ver los proyectos pusheados por Convergencia (se pueden
+ver con un día de retraso, porque incluye procesos que involucran el DataWarehouse).
+- En Salesforce, desde el menú "IDB Lab Project Manager", se puede acceder a la Operación (muy interesante), clicando sobre el ID de
+la Operación (primera columna, ver captura de pantalla).
+- Una vez dentro de Operaciones hay un montón de entidades relevantes: Financial, Team, Results, Milestones, Budget, SubOperaciones.
+- Results Matrix y Financial se elaboran manualmente en Salesforce.
+- Lo interesante del DataWarehouse es que consolida los datos provenientes de Convergencia y (hasta recientemente) del sistema financiero 
+antes de que Convergencia se pushee a Salesforce.
+- El objetivo principal de que esta información ya consolidada se pase a Salesforce es para la producción de los indicadores desde Salesforce.
+- Cuando un proyecto se aprueba a nivel de donante, el proyecto pasa de PIPELINE a PORTAFOLIO.
+
+___________
+
+- Documentos clave:
+
+TODOS LOS DOCUMENTOS ESTAN EN EL EZSHARE! (incluido el PITCH)
+
+1 - Source -> Eligibility: PITCH (accesible en salesforce desde Opportunities)
+2 - Design -> Approval: Donor's Memo (accesible en Convergencia desde Proyectos, web pública. No he visto accesibilidad a esto desde Salesforce, aún)
+3 - Track  -> Portfolio: Corporate Resource Framework (CRF, son indicadores!), Progress Report, Disbursements, Lessons Learned, Final Analysis, etc. (accesible en Salesforce desde Operaciones y Suboperaciones)
+
+
+Nota: Las lecciones aprendidas tienen muchos datos interesante en fase de post-mortem (una vez el proyecto cerrado. Accesible desde Salesforce, p.e. 
+desde el menú "Progress Report/Knowledge" de una Operación o Suboperación)
+
+Nota ala margen: el documento "iDelta", en fase de diseño, es un Excel producido por IDB Invest donde se corrigen o valoran las apreciaciones del 
+leader del proyecto. No sale de Convergencia. Todos los iDeltas se resumen después en un mega-Excel. Solo tenemos (el IDBLab) 
+acceso a "iDelta_DB.xlsx". Este fichero contiene mucho texto narrativo y puede ser relevante para la evolución de los corpora.
+
+
+ACTION POINTS:
+
+1. URGENT: REVISAR LOS MATERIALES EN IDBLab Temàticas
+2. PREGUNTAS: 
+    - entiendo que, en SalesForce, los metadatos de una oportunidad se introducen a mano, y en entre ellos el link al PITCH creado en Convergencia 
+    (como explica Julien en su presentación).
+
+___________
+
+USE CASES
+
+I. Ruben: 
+
+El sistema de Convergencia es el instrumento que utiliza el BID para la gestión de proyectos, y no para la gestión de la cartera (del Portflio).
+Por lo tanto, los usuarios no pueden utilizar Convergencia para la explotación del Portfolio.
+Dentro del BIDLab, el tipo de proyectos es diferente a los tipos de proyectos del resto del grupo. Por lo que el uso de Convergencia tampoco es 
+conveniente para gestionar los proyectos del BID Lab. Hay detalles de gestión que son difíciles de manejar desde Convergencia: VER CAPTURA DE PANTALLA 
+"Convergencia-Operacion.png". 
+(Salesforce se ha configurado a partir de un projecto interno ad-hoc que tenían para la gestión de proyectos.)
+
+En resumen: 
+
+* Los sistemas disponibles para BIDLab no eran para Cartera.
+* El Dash-board que están utilizando para la gestión de Cartera tira del DataWarehouse, el cual a su vez tira de múltiples bases de datos internas
+* El Dash-board se está utilizando para búsquedas financieras, mientras que....
+* El Salesforce se está utilizando para gestión operativa (hay una propuesta en marcha para inyectar Reportes desde Salesforce en el Power-BI para Datawarehouse)
+
+operativa, prácticos para manejar la mecánica de los proyectos, los desembolsos, las fechas de aprobación, etc.
+
+PERO NO LLEGAMOS A LA CALIDAD Y CONTENIDO DE UN PROYECTO, no hay mucha información sobre:
+
+- los Sectores, 
+- las áreas temáticas
+- Desafíos de desarrollo
+- Tipos de beneficiarios
+- Tipos de indicadores
+- Si los proyectos están siendo bien desarrollados o mal desarrollados
+
+
+(NOTA de Enric: ESTO SON PISTAS EXCELENTES PARA LA DEFINICIÓN DE LAS HISTORIAS DE USUARIO!!!! 20201029Th.)
+
+Este tipo de información no está en Power-BI. Ese es el tipo de calidad de información al que se quiere llegar.
+La plataforma de Power-BI no es intutitiva. Se necesita capacitación en la platforma para poder saber qué filtros aplicar o no. Además de 
+la nomenclatura (p.e. Queremos "Portafolio Activo", y además el "Portafolio Histórico", es decir proyectos que no estñan en el Power-BI).
+
+Esperamos poder manejar en GNOMA:
+
+- Tenemos una intución de los tipos de fuentes de información, esto incluye dentro de Salesforce:
+
+    - Las Matrices de Resultados y los Indicadores. Imaginamos que dentro de estos textos se puede sacar información cualitativa sobre los 
+    objetivos de desarrollo
+    - Hay muchos documentos en EzShare que contienen mucha información cualitativa, p.e. la narrativa contenido en el Memorándum de Donantes
+    - Durante la ejecución del proyecto, dentro del sistema de gestión de proyectos de Salesforce, cada semestre se escribe un informe del
+    progreso del proyecto. Aquí hay información cualitativa y cuantitativa, pero también párrafos sobre qué ha pasado durante la ejecución 
+    (características y calidades) del proyecto.
+
+Hay una Historia de Usuario (ellos le llaman "Use Case") paraguas que se puede subdividir en múltiples sub-historias de usuario:
+
+"Identificar y agrupar proyectos de la cartera BIDLab Activa, aún en fase temprana, y de la Cartera Histórica y al Anti-Portfolio"
+
+Sub-historias de usuario 
+
+- Para una persona que está diseñando un proyecto y que quiere saber si su proyecto es innovador o no (para lo que necesita acceder al Histórico)
+- Saber qué se está haciendo en otos países o en otras regiones (lecciones aprendidas, mejores prácticas, alarmas y banderas rojas)
+- (Maria Elena hablaba del informe de overview semestral o anual): en esta situación hay que contar la historia de tres proyectos que han 
+utilizado tal o cual tecnología para tal objetivo de desarrollo (incluso el equipo de comunicación hoy en día no saben cómo hacer esto, utilizan
+el Whatsap para preguntarse entre ellos!)
+- En situación de desastres naturales, se suele preguntar: Cuál es el tipo de actuaciones (operaciones y proyectos) llevados a cabo por el BIDLab
+
+Rubén propone que la primera funcionalidad deseada (CASO DE USO, ahora sí) es DESARROLLAR LA FUNCIONALIDAD PARAGUAS.
+
+Cada año cambian las prioridades. Se quiere un sistema resiliente en el futuro. Un sistema que dé la flexibilidad de encontrar proyectos que estén
+relacionados con un concepto emergente (trending).
+
+II. JULIEN: 
+
+GNOMA es la oportunidad de proceder más inteligentemente. Para un usuario de BIDLab existe la dificultad de que no hay un punto de acceso 
+único desde dondes buscar amigablemente (semántica) informacion. 
+
+HISTORIA DE USUARIO (por JULIEN, en su presentación): 
+
+"Como gestor de la cartera, quiero ver todos los PSR y Lecciones Aprendidas (o información relacionada o parecida, p.e. Progress Report, otros, con 
+ratio de relevancia) utilizando la Taxonomía para, de este modo, poder gestionar mejor el perfilado (proceso de nacimiento) de una nueva operación."
+
+En la situación actual, por ejemplo, esto es posible pero complejo. Y aún más si se pretende obtener información del Anti-Portfolio.
+
+- Otra: dada una palabra clave tipo "desastre natural" o "Covid-19" o "Inmunología" poder obtener todos los proyectos ACTIVOS, en el HISTÓRICO, 
+no APROBADOS. Se trata de buscar los "conceptos" relacionados, cercanos/similares, sinónimos, etc. a los que se llega a partir de las palabras clave. 
+(Rubén ->para esto se deberían utilizar las ontologías y taxonomías ya desarrolladas internamente sinó también las existentes externamente). 
+
+
+Nomenclatura interna:
+
+TC Tecnichal Cooperation
+PSR indicaciones de cómo se ha ido desarrollando el proyecto, indicadores e información clave sobre cómo se ha llevado el desembolso, etc. que 
+se utiliza para la evaluación semestral del proyecto.
+
+Para el guión: 
+
+* Lista de códigos de "status" del proyecto, p.e. si la oportunidad no ha pasado Ideate, cómo se "marca" la Oportunidad Cerrada-Rechazada? o simplemente se cierra el Proyecto con una nota motivadora?
+* Para los círculos temáticos deberíamos explicarles el ciclo historia de usuario - pregunta de competencia - consulta SPARQL y darles ejemplos centrados en las áreas temáticas. También importante, preguntarles qué taxonomías crean/mantienen, donde están, en qué formatos, como se mapean con otros circulos temáticos, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________
